@@ -1,12 +1,16 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-title',
   templateUrl: './title.component.html',
   styleUrls: ['./title.component.sass']
 })
-export class TitleComponent {
+export class TitleComponent implements OnInit {
 
   public title: string = "Bem Vindo";
+
+  constructor() {}
+ 
+  ngOnInit() {}
 
 }
