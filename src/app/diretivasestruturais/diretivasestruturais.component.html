@@ -14,3 +14,15 @@
 
 
 <button (click) = "onClick()">Clicar</button>
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+<ul>
+    <li *ngFor = "let item of list; let i = index">
+        [ {{i}} ] - {{ item.nome }}
+    </li>
+</ul>
+<button (click) = "onClickAddListt()">Add</button>
