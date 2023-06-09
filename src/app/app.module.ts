@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TitleComponent } from './title/title.component';
+import { DiretivasestruturaisComponent } from './diretivasestruturais/diretivasestruturais.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TitleComponent
+    TitleComponent,
+    DiretivasestruturaisComponent
   ],
   imports: [
     BrowserModule,
