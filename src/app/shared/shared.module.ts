@@ -1,14 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NewComponentComponent } from './new-component/new-component.component';
+import { InputtComponent } from './inputt/inputt.component';
 
 
 
 @NgModule({
   declarations: [
-    NewComponentComponent
+    NewComponentComponent,
+    InputtComponent
   ],
-  exports: [NewComponentComponent],
+  exports: [NewComponentComponent, InputtComponent],
   imports: [
     CommonModule
   ]
